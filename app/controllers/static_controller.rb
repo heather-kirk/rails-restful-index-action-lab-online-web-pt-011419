@@ -1,4 +1,4 @@
-class StudentsController < ApplicationController
+class StaticController < ApplicationController
   
   get "/index", to: "static#/index"
   @students = Student.all 
