@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   
-  get "/students", to: "static#students"
-end
+  get "/students", to: "static#/students"
